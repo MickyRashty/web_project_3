@@ -1,0 +1,7 @@
+.place {
+    display: grid;
+    grid-template-columns: 460px 484px;
+    gap: 40px;
+    margin: 0;
+    padding-top: 80px;
+}
