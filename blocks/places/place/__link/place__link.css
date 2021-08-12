@@ -5,6 +5,6 @@
     transition: opacity 0.5s linear;
 }
 
-.place__link:last-of-type:hover {
+.place__link:hover {
     opacity: 0.8;
 }
