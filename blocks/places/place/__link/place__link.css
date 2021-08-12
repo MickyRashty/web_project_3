@@ -2,4 +2,9 @@
     text-decoration-line: underline;
     color: white;
     margin: 0;
+    transition: opacity 0.5s linear;
+}
+
+.place__link:last-of-type:hover {
+    opacity: 0.8;
 }
