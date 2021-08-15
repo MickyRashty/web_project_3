@@ -6,3 +6,24 @@
     max-width: 656px;
     padding-top: 283px;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        padding-top: 233px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        padding-top: 153px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 109%;
+        max-width: 288px;
+        padding-top: 51px;
+    }
+}

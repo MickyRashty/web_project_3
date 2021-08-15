@@ -2,3 +2,26 @@
     min-height: 740px;
     margin: 92px auto 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        min-height: 640px;
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        min-height: 480px;
+        min-width: 100%;
+        margin-top: 82px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        min-height: 200px;
+        min-width: 320px;
+        margin-top: 0;
+    }
+}

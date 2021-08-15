@@ -4,3 +4,13 @@
     text-align: right;
     color: #FFF;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        line-height: 100%;
+        align-self: auto;
+        text-align: start;
+        margin: 34px 0 0;
+    }
+    
+}

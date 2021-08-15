@@ -3,5 +3,21 @@
     line-height: 122%;
     max-width: 456px;
     margin: 0;
-    padding: 30px 0 23px;
+    grid-area: website;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        max-width: 352px;
+    }  
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        min-width: 288px;
+        margin: 0 auto;
+    }
 }

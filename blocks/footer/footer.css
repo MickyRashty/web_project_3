@@ -6,3 +6,26 @@
     justify-content: space-between;
     padding-top: 92px;
 }
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 720px;
+        padding-top: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        flex-direction: column;
+        max-width: 165px;
+        padding-bottom: 10px;
+        margin: 0;
+        margin-left: 16px;
+    }
+}

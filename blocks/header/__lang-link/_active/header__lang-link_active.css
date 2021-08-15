@@ -2,3 +2,9 @@
     text-decoration-line: underline;
     text-underline-position: under;
 }
+
+@media screen and (max-width: 320px) {
+    .header__lang-link_active {
+        min-width: 22px;
+    }
+}
