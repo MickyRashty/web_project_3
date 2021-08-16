@@ -17,9 +17,10 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) and (min-width: 321px) {
     .lead__title {
-        padding-top: 50px;
+        max-width: calc(100% - 16px * 2);
+        font-size: 55px;
     }
 }
 
@@ -27,7 +28,6 @@
     .lead__title {
         font-size: 40px;
         line-height: 110%;
-        padding-top: 50px;
         max-width: 288px;
     }
 }

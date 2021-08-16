@@ -20,6 +20,12 @@
     }
 }
 
+@media screen and (max-width: 568px) and (min-width: 321px) {
+    .places {
+        max-width: calc(100% - 16px * 2);
+    }
+}
+
 @media screen and (max-width: 320px) {
     .places {
         display: grid;

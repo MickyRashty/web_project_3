@@ -9,13 +9,15 @@
 </head>
 
 <body class="root">
-  <div class="page-container">
+  <div class="root__page-container">
+
     <header class="header">
       <img class="header__logo" src="./images/logo.svg" alt="USA logo">
-      <nav class="header__nav">
-        <a target="_blank" href="#" class="header__lang-link header__lang-link_active">En</a>
-        <a target="_blank" href="#" class="header__lang-link">Es</a>
-      </nav>
+      <ul class="header__lang-menu">
+        <li class="header__lang-menu_item"><a target="_blank" href="#"
+            class="header__lang-link header__lang-link_active">En</a></li>
+        <li class="header__lang-menu_item"><a target="_blank" href="#" class="header__lang-link">Es</a></li>
+      </ul>
     </header>
 
     <main class="content">
@@ -60,7 +62,7 @@
         <img class="photo-grid__item" src="./images/photo-grid-road.jpg" alt="road in the desert">
       </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Maine</h2>
           <img class="place__image" src="./images/place-maine.jpg" alt="Maine landscape on the ocean">
           <div class="place__website">
@@ -82,11 +84,11 @@
               expedition. </p>
             <p class="place__paragraph">Average cost: $80-100.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">New Hampshire</h2>
           <img class="place__image" src="./images/place-new-hampshire.jpg" alt="valley and river in new hampshire">
-          <div class="place__website place__website_nh">
+          <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
             <a class="place__link" target="_blank"
               href="https://www.timberland.com/timberlandpro.html">timberland.com</a>
@@ -107,8 +109,8 @@
               are also better than cycling shoes when pitching a tent.</p>
             <p class="place__paragraph">Average cost: $100-150.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">New York</h2>
           <img class="place__image" src="./images/place-new-york.jpg" alt="street in nyc">
           <div class="place__website">
@@ -128,8 +130,8 @@
               through those dark lonely roads on your adventure. Such
               a light from GE will set you back about $10-20.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Erie, PA</h2>
           <img class="place__image" src="./images/place-pennsylvania.jpg" alt="waterfall in the forset">
           <div class="place__website">
@@ -155,8 +157,8 @@
               extra eerie time!</p>
             <p class="place__paragraph">The current cost of a Hershey's Chocolate bar: about 60¢.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Ohio</h2>
           <img class="place__image" src="./images/place-ohio.jpg" alt="wind tourbine in ohio">
           <div class="place__website">
@@ -179,7 +181,7 @@
               bike ride!</p>
             <p class="place__paragraph">The cost of a daily ticket: about $100.</p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="cover">
         <a class="cover__link" href="https://www.nps.gov/nr/travel/route66/maps66.html" target="_blank">
@@ -192,16 +194,15 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__links">
-        <a class="footer__link" target="_blank" href="https://yandex.com/maps">Maps</a>
-        <a class="footer__link" target="_blank" href="https://yandex.com/weather/moscow">Weather</a>
-        <a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Calendar</a>
-      </div>
-      <div class="footer__copyright">
-        <p>© 2021. Micky Rashty</p>
-      </div>
+      <nav>
+        <ul class="footer__links">
+          <li class="footer__link"><a class="footer__link" target="_blank" href="https://yandex.com/maps">Maps</a></li>
+          <li class="footer__link"><a class="footer__link" target="_blank" href="https://yandex.com/weather/moscow">Weather</a></li>
+          <li class="footer__link"><a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Calendar</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">© 2021. Micky Rashty</p>
     </footer>
-
 
   </div>
 </body>

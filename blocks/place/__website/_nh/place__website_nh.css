@@ -1,9 +1,0 @@
-.place__website_nh {
-    padding-top: 106px;
-}
-
-@media screen and (max-width: 768px) {
-    .place__website_nh {
-        padding-top: 0;
-    }
-}

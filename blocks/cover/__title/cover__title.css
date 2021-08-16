@@ -4,19 +4,20 @@
     line-height: 106%;
     margin: 0 auto;
     max-width: 656px;
-    padding-top: 283px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 627px) {
     .cover__title {
-        padding-top: 233px;
+        font-size: 50px;
     }
+    
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 450px) {
     .cover__title {
-        padding-top: 153px;
+        font-size: 35px;
     }
+    
 }
 
 @media screen and (max-width: 320px) {
@@ -24,6 +25,5 @@
         font-size: 32px;
         line-height: 109%;
         max-width: 288px;
-        padding-top: 51px;
     }
 }
