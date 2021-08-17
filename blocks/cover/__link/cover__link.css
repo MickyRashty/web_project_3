@@ -3,7 +3,9 @@
     max-width: 100%;
     display: flex;
     background-image: url(../../../images/cover-route-66.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     justify-content: center;
     color: #FFFDFD;
     text-decoration: none;

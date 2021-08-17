@@ -4,7 +4,6 @@
     align-self: center;
     text-decoration: none;
     color: white;
-    margin: 0 18px 0 0;
     transition: opacity 0.5s linear;
 }
 
@@ -15,7 +14,6 @@
 @media screen and (max-width: 473px) {
     .footer__link {
         align-self: auto;
-        margin: 32px 0 0;
         line-height: 100%;
         font-size: 20px;
     }
